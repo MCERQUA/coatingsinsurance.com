@@ -1,0 +1,20 @@
+SITE: coatingsinsurance.com
+STATUS: GREEN (static export)
+OUT_DIR: out/ (22/22 pages)
+OUT_QUOTE_FORM: PASS (name="quote", form-name, data-netlify verified)
+DATE: 2026-06-25
+WORKER: josh-desk-4@mesh
+TEMPLATE: fixed template (static-export + correct Netlify Forms — no @netlify/plugin-nextjs)
+
+DELIVERABLES:
+- scaffold: PASS (fixed template, static-export config, NAV_LINKS + Testimonials type fixed)
+- site.ts: 5 services (coating-contractor GL, CPL, epoxy floor, roof coating, tools/equipment) + NAV_LINKS + STATS + CREDENTIALS
+- blog posts: 4 (flagship: contractors-pollution-liability-painting-contractor 3029w via article-writer + 3 supporting 900-1100w each)
+- images: 9 HF FLUX images >100KB (framing template images removed)
+- llms.txt: DONE (CPL specialty focus, all 5 services)
+- __forms.html: coating contractor fields (businessName, coatingType, annualRevenue, needsCPL, state)
+- JSON-LD: homepage (LocalBusiness+InsuranceAgency+FAQPage), services/[slug] (Service+FAQPage+Breadcrumb), blog/[slug] (BlogPosting+Breadcrumb)
+- ServicesGrid.tsx: AlertTriangle, Grid, Home icons added
+- scaffold copy batch-fixed: 12 files
+- next build: 22/22 pages → out/ (GREEN, static export)
+- staging content: /config/submesh/pipeline/handoff/coatingsinsurance.com/ (draft-site-content.md, image-prompts.txt, 4 blog posts)

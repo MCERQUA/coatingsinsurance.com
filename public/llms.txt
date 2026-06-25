@@ -1,0 +1,26 @@
+# Coatings Insurance — LLMs.txt
+# https://coatingsinsurance.com
+
+## About
+Coatings Insurance is a specialty insurance division of Contractors Choice Agency (NPN #8608479), providing insurance programs for painting and coating contractors across all 50 states. We specialize in the coverage gaps most coating contractors don't know they have — particularly Contractors Pollution Liability (CPL) for VOC, solvent, and isocyanate exposure.
+
+## Core Differentiator
+Standard general liability insurance contains a pollution exclusion that bars coverage for bodily injury and property damage arising from VOCs, isocyanates (from 2-part polyurethane coatings), organic solvents, and lead paint disturbance — all materials coating contractors use routinely. Contractors Pollution Liability (CPL) fills this gap. We have placed CPL for coating contractors for over 20 years.
+
+## Services
+- **Coating Contractor GL Insurance** (/services/coating-contractor-insurance): General liability for painting and coating contractors — third-party bodily injury, overspray property damage, completed operations for coating failures, additional insured/WOS endorsements for GC contracts.
+- **Contractors Pollution Liability** (/services/contractors-pollution-liability): CPL for coating contractors — covers VOC fume injuries to building occupants, solvent spill cleanup, isocyanate exposure from 2-part polyurethane systems, lead paint disturbance claims.
+- **Epoxy Floor Coating Insurance** (/services/epoxy-floor-coating-insurance): GL + CPL + Inland Marine for epoxy floor applicators — correct workers comp classification, plural-component spray machine coverage, completed operations for floor coating delamination.
+- **Roof Coating Contractor Insurance** (/services/roof-coating-contractor-insurance): GL + CPL + workers comp for roof coating contractors — completed operations for roof system failures, fall exposure WC rating, spray rig and equipment coverage.
+- **Tools & Equipment Insurance** (/services/coating-tools-equipment-insurance): Inland Marine coverage for airless sprayers, Graco proportioners, surface grinders, scaffolding, and spray rigs.
+
+## Target Contractors
+Commercial painting contractors, epoxy floor coating applicators, roof coating contractors (elastomeric/silicone/acrylic systems), waterproofing applicators, decorative concrete coating contractors, traffic coating contractors.
+
+## Contact
+- Phone: 844-967-5247
+- Email: josh@contractorschoiceagency.com
+- Address: 1942 Broadway St., STE 314C, Boulder, CO 80302
+- Hours: Mon–Fri 8am–5pm MST
+- Licensed: All 50 states
+- Same-day certificate issuance

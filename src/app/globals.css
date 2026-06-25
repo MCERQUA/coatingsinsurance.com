@@ -1,0 +1,106 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    @apply bg-canvas text-ink font-body;
+  }
+
+  h1, h2, h3, h4 {
+    @apply font-heading;
+  }
+
+  :focus-visible {
+    @apply outline-none ring-2 ring-brand ring-offset-2;
+  }
+
+  ::selection {
+    @apply bg-brand/20 text-brand-ink;
+  }
+}
+
+@layer components {
+  .field-label {
+    @apply block font-body text-sm font-bold text-ink mb-1.5;
+  }
+
+  .field-input {
+    @apply w-full font-body text-sm text-ink bg-card border border-line rounded-lg px-3.5 py-2.5
+           placeholder:text-muted focus:outline-none focus:ring-2 focus:ring-brand focus:border-transparent
+           transition-shadow;
+  }
+
+  .field-textarea {
+    @apply w-full font-body text-sm text-ink bg-card border border-line rounded-lg px-3.5 py-2.5
+           placeholder:text-muted focus:outline-none focus:ring-2 focus:ring-brand focus:border-transparent
+           transition-shadow resize-none;
+  }
+}
+
+@layer utilities {
+  .container-xl {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+
+  .container-feature {
+    @apply max-w-6xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+
+  .container-prose {
+    @apply max-w-3xl mx-auto px-4 sm:px-6;
+  }
+
+  .section-pad {
+    @apply py-16 sm:py-20 lg:py-24;
+  }
+
+  .section-pad-lg {
+    @apply py-20 sm:py-28 lg:py-32;
+  }
+
+  .eyebrow {
+    @apply font-body text-xs font-bold uppercase tracking-[0.14em];
+  }
+
+  .text-brand-grad {
+    background: linear-gradient(135deg, #3B6EA5 0%, #1B3A6B 50%, #E8821A 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .text-amber-grad {
+    background: linear-gradient(135deg, #E8821A 0%, #F0943A 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .bg-dots {
+    background-image: radial-gradient(circle, rgba(27,58,107,0.08) 1px, transparent 1px);
+    background-size: 24px 24px;
+  }
+
+  .bg-grid-dark {
+    background-image:
+      linear-gradient(rgba(255,255,255,0.04) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(255,255,255,0.04) 1px, transparent 1px);
+    background-size: 48px 48px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
