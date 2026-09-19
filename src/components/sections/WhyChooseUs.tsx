@@ -19,8 +19,8 @@ export function WhyChooseUs() {
           <FadeIn direction="right">
             <div className="relative h-[480px] rounded-2xl overflow-hidden shadow-xl">
               <Image
-                src="/images/coatings insurance-structure.jpg"
-                alt="Coatings Insurance contractor structure"
+                src="/images/industry-shot.jpg"
+                alt="Coating contractor work area with equipment and protective gear"
                 fill
                 className="object-cover"
                 sizes="(max-width: 1024px) 100vw, 50vw"
