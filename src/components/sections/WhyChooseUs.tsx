@@ -3,7 +3,7 @@ import { CheckCircle } from "lucide-react";
 import { FadeIn } from "@/components/animations/FadeIn";
 
 const REASONS = [
-  { title: "Coatings Insurance Industry Specialists", desc: "We understand carpentry class codes, completed operations exposure, and the certificate demands GCs put on coatings insurance subs." },
+  { title: "Coatings Insurance Industry Specialists", desc: "We understand painting and coatings class codes, completed operations exposure, and the certificate demands GCs put on coatings insurance subs." },
   { title: "Competitive Rates", desc: "Access to specialty carriers that focus on construction trades — not general business carriers charging inflated rates for coatings insurance risk." },
   { title: "Same-Day Certificates", desc: "Need a certificate for a new GC by tomorrow morning? We process certificates and AI endorsements same-day." },
   { title: "Licensed in All 50 States", desc: "Whether your crews work in one state or across the country, we can bind coverage where you need it." },
