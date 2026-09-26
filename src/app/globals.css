@@ -70,7 +70,7 @@
   }
 
   .text-brand-grad {
-    background: linear-gradient(135deg, #3B6EA5 0%, #1B3A6B 50%, #E8821A 100%);
+    background: linear-gradient(135deg, #9E582D 0%, #5C3018 50%, #E8821A 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -84,7 +84,7 @@
   }
 
   .bg-dots {
-    background-image: radial-gradient(circle, rgba(27,58,107,0.08) 1px, transparent 1px);
+    background-image: radial-gradient(circle, rgba(92,48,24,0.08) 1px, transparent 1px);
     background-size: 24px 24px;
   }
 

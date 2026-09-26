@@ -26,29 +26,31 @@ const config: Config = {
           soft: "#FCE7CF",
         },
 
-        // BRAND: industrial deep blue (coatings niche)
+        // BRAND: warm umber/copper (coatings niche). Was industrial deep blue; Josh HARD NO on blue
+        // gradients (USER.md L32), so the palette debt was paid 2026-09-26. Same ramp positions, and
+        // DEFAULT keeps the old ~11:1 white-on-brand contrast.
         brand: {
-          DEFAULT: "#1B3A6B",
-          bright: "#3B6EA5",
-          ink: "#112A50",
-          50:  "#EEF3F8",
-          100: "#D6E3F0",
-          200: "#ADC7E0",
-          300: "#7FA6CC",
-          400: "#5485B5",
-          500: "#3B6EA5",
-          600: "#2D5687",
-          700: "#1B3A6B",
-          800: "#162F58",
-          900: "#112A50",
+          DEFAULT: "#5C3018",
+          bright: "#9E582D",
+          ink: "#3D200F",
+          50:  "#FBF3EC",
+          100: "#F4E1D0",
+          200: "#E8C3A2",
+          300: "#D89E72",
+          400: "#C47A4A",
+          500: "#9E582D",
+          600: "#7E4523",
+          700: "#5C3018",
+          800: "#4E2914",
+          900: "#3D200F",
         },
 
         // LEGACY ALIASES — map old class names → new palette
         "forest-green": {
-          DEFAULT: "#1B3A6B",
-          dark: "#162F58",
-          50: "#EEF3F8",
-          light: "#3B6EA5",
+          DEFAULT: "#5C3018",
+          dark: "#4E2914",
+          50: "#FBF3EC",
+          light: "#9E582D",
         },
         "ember-orange": {
           DEFAULT: "#E8821A",
@@ -75,7 +77,7 @@ const config: Config = {
       boxShadow: {
         soft:         "0 1px 2px rgba(22,32,28,.04)",
         card:         "0 1px 2px rgba(22,32,28,.04), 0 10px 30px -12px rgba(22,32,28,.12)",
-        "card-hover": "0 4px 8px rgba(22,32,28,.06), 0 24px 48px -16px rgba(27,58,107,.20)",
+        "card-hover": "0 4px 8px rgba(22,32,28,.06), 0 24px 48px -16px rgba(92,48,24,.20)",
         cta:          "0 12px 28px -8px rgba(232,130,26,.45)",
         float:        "0 24px 64px -24px rgba(22,32,28,.30)",
       },
