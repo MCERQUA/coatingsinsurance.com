@@ -18,6 +18,12 @@ export const metadata: Metadata = {
     images: [{ url: "/images/og-image.jpg", width: 1216, height: 640 }],
   },
   twitter: { card: "summary_large_image" },
+  icons: {
+    icon: [
+      { url: "/favicon.svg", type: "image/svg+xml" },
+      { url: "/favicon.ico", sizes: "32x32" },
+    ],
+  },
 };
 
 const jsonLd = {
