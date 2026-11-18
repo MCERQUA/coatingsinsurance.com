@@ -1,15 +1,22 @@
-import { Plus_Jakarta_Sans, Inter } from "next/font/google";
+import localFont from "next/font/local";
 
-export const headingFont = Plus_Jakarta_Sans({
-  subsets: ["latin"],
+export const headingFont = localFont({
+  src: [
+    { path: "./fonts/PlusJakartaSans-variable.woff2", weight: "600", style: "normal" },
+    { path: "./fonts/PlusJakartaSans-variable.woff2", weight: "700", style: "normal" },
+    { path: "./fonts/PlusJakartaSans-variable.woff2", weight: "800", style: "normal" },
+  ],
   variable: "--font-heading",
-  weight: ["600", "700", "800"],
   display: "swap",
 });
 
-export const bodyFont = Inter({
-  subsets: ["latin"],
+export const bodyFont = localFont({
+  src: [
+    { path: "./fonts/Inter-variable.woff2", weight: "400", style: "normal" },
+    { path: "./fonts/Inter-variable.woff2", weight: "500", style: "normal" },
+    { path: "./fonts/Inter-variable.woff2", weight: "600", style: "normal" },
+    { path: "./fonts/Inter-variable.woff2", weight: "700", style: "normal" },
+  ],
   variable: "--font-body",
-  weight: ["400", "500", "600", "700"],
   display: "swap",
 });
