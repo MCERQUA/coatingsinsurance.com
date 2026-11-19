@@ -20,8 +20,8 @@ export const metadata: Metadata = {
   twitter: { card: "summary_large_image" },
   icons: {
     icon: [
-      { url: "/favicon.svg", type: "image/svg+xml" },
       { url: "/favicon.ico", sizes: "32x32" },
+      { url: "/icon.png", type: "image/png", sizes: "512x512" },
     ],
   },
 };
